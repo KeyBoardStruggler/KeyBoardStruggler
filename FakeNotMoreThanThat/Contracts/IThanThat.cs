@@ -4,7 +4,9 @@ using System.Text;
 
 namespace FakeNotMoreThanThat.Contracts
 {
-    interface IThanThat
+    public interface IThanThat
     {
+        bool ThakeThat { get; }
+        int PickIt(int countOfPickups);
     }
 }
